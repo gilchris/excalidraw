@@ -20,6 +20,7 @@ import { LilitaFontFaces } from "./Lilita";
 import { NunitoFontFaces } from "./Nunito";
 import { VirgilFontFaces } from "./Virgil";
 import { XiaolaiFontFaces } from "./Xiaolai";
+import { NanumYeunJiCheFontFaces } from "./NanumYeunJiChe";
 
 import { FONT_METADATA, type FontMetadata } from "./FontMetadata";
 import type {
@@ -237,6 +238,7 @@ export class Fonts {
     init("Lilita One", ...LilitaFontFaces);
     init("Nunito", ...NunitoFontFaces);
     init("Virgil", ...VirgilFontFaces);
+    init("NanumYeunJiChe", ...NanumYeunJiCheFontFaces);
 
     // fallback font faces
     init(CJK_HAND_DRAWN_FALLBACK_FONT, ...XiaolaiFontFaces);
